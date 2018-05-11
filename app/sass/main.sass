@@ -57,4 +57,416 @@ body
 	background-color: $accent
 	color: #fff
 
+
+//======================================
+
+img
+	max-width: 100%
+	height: auto
+
+h1, h2, h3, h4, p, span
+	margin: 0 auto
+	padding: 0 auto
+	text-decoration: none
+	font-weight: normal
+
+ul
+	margin: 0 auto
+	padding: 0
+
+.main-holder
+	overflow: hidden
+	max-width: 1100px
+	margin: 0 auto
+	padding: 0 15px
+	position: relative
+
+
+//======================================
+
+.header
+	//position: relative
+	width: 100%
+	min-height: 550px
+	background-repeat: no-repeat
+	background-size: cover
+	.nav-section
+		position: relative
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-top: 20px
+		.nav
+			width: 50%
+			position: relative
+			display: flex
+			justify-content: flex-end
+			align-items: center
+			margin: 0 -12px
+			direction: rtl
+			font-family: "OpenSansHebrew-Regular"
+			font-size: 17px
+			li
+				list-style: none
+				display: flex
+				justify-content: center
+				align-items: center
+				padding: 0 12px
+			a
+				color: rgb(60, 60, 60)
+				text-decoration: none
+				transition: all .1s ease
+				&:hover
+					transform: scale(1.1)
+					color: #00525d
+
+		.social
+			width: 50%
+			position: relative
+			display: flex
+			//justify-content: center
+			align-items: center
+			margin: 0 -8px
+			direction: rtl
+			z-index: 2
+			li
+				list-style: none
+				display: flex
+				justify-content: center
+				align-items: center
+				padding: 0 8px
+			a
+				text-decoration: none
+				background: #00525d
+				color: white
+				font-size: 18px
+				border-radius: 50%
+				width: 33px
+				height: 33px
+				display: flex
+				justify-content: center
+				align-items: center
+				transition: all .5s ease
+				&:hover
+					color: #00525d
+					background: transparent
+
+	.header-content
+		position: relative
+		display: flex
+		justify-content: center
+		.left-block
+			width: 47%
+			position: relative
+			display: flex
+			//justify-content: center
+			flex-direction: column
+			align-items: flex-start
+			padding: 0 25px
+			z-index: 33333333
+			.wrap-img
+				margin-top: 70px
+		.right-block
+			width: 53%
+			position: relative
+			display: flex
+			//justify-content: center
+			margin-top: -53px
+		.wrap-text
+			display: flex
+			justify-content: center
+			flex-direction: column
+			align-items: center
+			width: 85%
+			transform: rotate(-6deg)
+			p
+				//transform: rotate(-6deg)
+				min-width: 245px
+		.date-title
+			font-family: "MyriadPro-Regular"
+			font-size: 35px
+			line-height: 1.2
+			color: white
+			background: #00b3cb
+			margin-bottom: 15px
+			padding: 5px 10px
+			text-align: right
+		.description-title
+			direction: rtl
+			font-family: "OpenSansHebrew-Bold"
+			font-size: 24px
+			line-height: 1.2
+			color: white
+			background: #00525d
+			padding: 5px 10px
+			text-align: center
+
+
+.about-the-festival-section
+	//position: relative
+	width: 100%
+	min-height: 290px
+	background: #00525d
+	margin-top: -85px
+	z-index: 2
+	text-align: center
+	padding: 30px 0
+	.img-girl1
+		position: absolute
+		width: 406px
+		height: 429px
+		right: 50px
+		bottom: -35px
+		z-index: 2
+	.main-holder
+		max-width: 770px
+
+	h1
+		direction: rtl
+		font-family: "OpenSansHebrew-Bold"
+		font-size: 26px
+		line-height: 1.2
+		color: white
+		margin-bottom: 25px
+	p
+		direction: rtl
+		font-family: "OpenSansHebrew-Regular"
+		font-size: 20px
+		line-height: 1.2
+		color: white
+	.wrap-button
+		direction: rtl
+		font-family: "OpenSansHebrew-Bold"
+		font-size: 26px
+		display: flex
+		justify-content: center
+		align-items: center
+		a
+			display: flex
+			justify-content: center
+			align-items: center
+			min-width: 190px
+			min-height: 60px
+			color: white
+			text-decoration: none
+			background: #d5a30d
+			margin-top: 35px
+			transition: all .3s ease
+			&:hover
+				background: #b78e14
+				box-shadow: 1.414px 1.414px 50px 0px rgba(77, 77, 77, 0.3)
+
+.third-section
+	//overflow: hidden
+	position: relative
+	width: 100%
+	min-height: 314px
+	background-image: url(../img/bg3-section.png)
+	background-size: cover
+	background-position: right
+	background-repeat: no-repeat
+	.items-third-section
+		//margin-top: 30px
+		display: flex
+		justify-content: center
+		align-items: center
+		flex-wrap: wrap
+		margin: 70px -30px 0
+	.item-third-section
+		padding: 0 30px
+		direction: rtl
+		display: flex
+		justify-content: center
+		align-items: center
+		width: 50%
+		margin-bottom: 50px
+		.wrap-img
+			min-width: 125px
+			margin-left: 15px
+		.wrap-text
+			max-width: 315px
+		h3
+			font-family: "OpenSansHebrew-Bold"
+			font-size: 28px
+			color: rgb(213, 163, 13)
+			line-height: 1.2
+		p
+			font-family: "OpenSansHebrew-Regular"
+			font-size: 17px
+			color: rgb(126, 126, 126)
+			line-height: 1.2
+	h2
+		text-align: center
+		direction: rtl
+		font-family: "OpenSansHebrew-Bold"
+		color: rgb(0, 82, 93)
+		line-height: 1.2
+
+.professional-staff-section
+	position: relative
+	width: 100%
+	.items-staff
+		display: flex
+		justify-content: center
+	.item-staff
+		width: 100%
+		background-size: cover
+		background-position: center
+		background-repeat: no-repeat
+		height: 350px
+		&:hover
+			.text-item
+				transition: all .4s ease
+				visibility: visible
+				background: rgba(0,0,0,0.6)
+				cursor: pointer
+				height: 100%
+		.text-item
+			visibility: hidden
+			h3
+				direction: rtl
+				font-family: "OpenSansHebrew-Regular"
+				font-size: 26px
+				color: white
+				line-height: 1.2
+				padding: 8px
+				border-bottom: 2px solid rgb(213, 163, 13)
+			p
+				direction: rtl
+				font-family: "OpenSansHebrew-Regular"
+				font-size: 21px
+				line-height: 1.2
+				color: white
+				padding: 8px
+		.wrap-text
+			display: flex
+			justify-content: center
+			align-items: center
+			flex-direction: column
+			height: 100%
+
+.booking-section
+	position: relative
+	width: 100%
+	min-height: 579px
+	text-align: center
+	.wrap-img
+		img
+			border-bottom: 10px solid #ffbf00
+
+	h3
+		margin-top: 50px
+		margin-bottom: 30px
+		direction: rtl
+		font-family: "OpenSansHebrew-Bold"
+		font-size: 28px
+		line-height: 1.2
+		color: rgb(0, 82, 93)
+	p
+		margin-top: 20px
+		margin-bottom: 70px
+		direction: rtl
+		font-family: "OpenSansHebrew-Regular"
+		font-size: 21px
+		line-height: 1.2
+		color: rgb(120, 120, 120)
+
+.registration-section
+	position: relative
+	width: 100%
+	min-height: 300px
+	text-align: center
+	.main-holder
+		max-width: 770px
+	h3
+		margin-top: 40px
+		margin-bottom: 20px
+		direction: rtl
+		font-family: "OpenSansHebrew-Bold"
+		font-size: 28px
+		line-height: 1.2
+		color: white
+	p
+		direction: rtl
+		font-family: "OpenSansHebrew-Regular"
+		font-size: 20px
+		line-height: 1.2
+		color: white
+	.wrap-button
+		direction: rtl
+		font-family: "OpenSansHebrew-Bold"
+		font-size: 26px
+		display: flex
+		justify-content: center
+		align-items: center
+		a
+			display: flex
+			justify-content: center
+			align-items: center
+			min-width: 190px
+			min-height: 60px
+			color: white
+			text-decoration: none
+			background: #d5a30d
+			margin-top: 40px
+			margin-bottom: 40px
+			transition: all .3s ease
+			&:hover
+				background: #b78e14
+				box-shadow: 1.414px 1.414px 50px 0px rgba(77, 77, 77, 0.3)
+
+.download-forms-section
+	width: 100%
+	min-height: 330px
+	position: relative
+	background-size: cover
+	background-repeat: no-repeat
+	background-position: right
+	h3
+		direction: rtl
+		font-family: "OpenSansHebrew-Bold"
+		font-size: 28px
+		line-height: 1.2
+		color: rgb(0, 82, 93)
+		text-align: center
+		margin-top: 70px
+		margin-bottom: 60px
+	.wrap-buttons
+		display: flex
+		justify-content: center
+		align-items: center
+		margin: 0 -50px
+		.wrap-button
+			display: flex
+			justify-content: center
+			align-items: center
+			padding: 0 50px
+			a
+				display: flex
+				justify-content: center
+				align-items: center
+				min-width: 290px
+				min-height: 60px
+				background: #00b3cb
+				direction: rtl
+				font-family: "OpenSansHebrew-Bold"
+				font-size: 26px
+				line-height: 1.2
+				color: white
+				text-decoration: none
+				transition: all .3s ease
+				&:hover
+					background: #0c97aa
+					box-shadow: 1.414px 1.414px 50px 0px rgba(77, 77, 77, 0.3)
+
+
+
+
+
+
+
+
+
+
+
 @import "media" // Всегда в конце
